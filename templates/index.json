@@ -1,0 +1,403 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Enjoy our Refreshingly Delicious Iced Tea Drinks",
+            "heading_size": "hxxl"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop HoneyTea",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MAINBK_1.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text_HWmkTd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mtFDMK": {
+          "type": "heading",
+          "settings": {
+            "heading": "An Organic Delight For Your Taste Buds",
+            "heading_size": "h1"
+          }
+        },
+        "button_zgDDL3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Multipacks",
+            "button_link": "shopify://pages/multipacks",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mtFDMK",
+        "button_zgDDL3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-e361f310-30ed-44d7-abdf-71d535c28f4b",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection_WTX9FM": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "home-collection",
+        "products_to_show": 10,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-e361f310-30ed-44d7-abdf-71d535c28f4b",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 100
+      }
+    },
+    "multicolumn_4UjmgG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_brGkgy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vitamin-c-1.png",
+            "title": "Contains a source of vitamin C",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9MhjyR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/sugar-1.png",
+            "title": "low sugar",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bi7tAX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/low-calorie.png",
+            "title": "low in calories",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mdaNQG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/no-preservatives-2.png",
+            "title": "no preservations",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XacK49": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/planet-earth-2.png",
+            "title": "natural favourings",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_brGkgy",
+        "column_9MhjyR",
+        "column_bi7tAX",
+        "column_mdaNQG",
+        "column_XacK49"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-59c7c7b8-4bf1-4421-ba03-b68ea4515693",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "slider_with_text_dQ9jW4": {
+      "type": "slider-with-text",
+      "blocks": {
+        "image_zPnzEJ": {
+          "type": "image",
+          "settings": {
+            "image_slider": "shopify://shop_images/banner-home-bottom.jpg"
+          }
+        },
+        "image_rWfPfG": {
+          "type": "image",
+          "settings": {
+            "image_slider": "shopify://shop_images/banner-section.jpg"
+          }
+        },
+        "image_QKjpcP": {
+          "type": "image",
+          "settings": {
+            "image_slider": "shopify://shop_images/product1_f78aa67d-a618-466b-9f4e-358777eefd27.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_zPnzEJ",
+        "image_rWfPfG",
+        "image_QKjpcP"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Image with text",
+        "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "button_label": "Button label",
+        "button_link": "",
+        "text_style": "body",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_kdiyfj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xhyWCr": {
+          "type": "heading",
+          "settings": {
+            "heading": "AUTUMN is Here!",
+            "heading_size": "h0"
+          }
+        },
+        "text_mp4jCc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Premium Iced Teas are the perfect way to stay hydrated all season long. Choose from a variety of flavours, including Lemon, Cinnamon and Elderflower. We’ll deliver your drinks right to your door on a regular basis, so you’ll never have to worry about running out.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_WMFVVt": {
+          "type": "button",
+          "settings": {
+            "button_label": "Subscribe & Save",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xhyWCr",
+        "text_mp4jCc",
+        "button_WMFVVt"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/banner-section.jpg",
+        "image2": "shopify://shop_images/banner-section2.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-e361f310-30ed-44d7-abdf-71d535c28f4b",
+        "color_scheme": "scheme-1a9859b7-a142-4b6e-bb90-2cc20b6790eb",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_CP3ET4": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RpYMwY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ethically-sourced-3.png",
+            "title": "sourcing",
+            "text": "<p>Only the best quality ingredients make their way into every bottle of HoneyTea. From the organic wildflower honey to the responsibly sourced green tea leaves, every ingredient is carefully selected to ensure you get that refreshing taste every time.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VCRE7p": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/brewing-1.png",
+            "title": "brewing",
+            "text": "<p>Our green tea is brewed to gradually extract a strong flavour, which is then mixed with honey for sweetness and lemon juice for freshness.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jmdLWB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/wine-bottle-1.png",
+            "title": "bottling",
+            "text": "<p>We use high quality recyclable glass bottles, sealed with premium caps to ensure that your drink gets to you at its best quality.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_g6zqtd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/thermometer-2.png",
+            "title": "pasteurising",
+            "text": "<p>We are committed to our promise of using no preservatives in our drink. Consequently, the final stage in our cycle is where we pasteurise our drinks to make sure they are safe for consumption and will retain their amazing quality.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_RpYMwY",
+        "column_VCRE7p",
+        "column_jmdLWB",
+        "column_g6zqtd"
+      ],
+      "settings": {
+        "title": "Your HoneyTea's Journey",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-e361f310-30ed-44d7-abdf-71d535c28f4b",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "image_banner_fYpdKw": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_tTnHXY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Connect with HoneyTea",
+            "heading_size": "h1"
+          }
+        },
+        "media_Aay4pD": {
+          "type": "media",
+          "settings": {
+            "button_link_1": "",
+            "button_link_2": "",
+            "background": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tTnHXY",
+        "media_Aay4pD"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/banner-home-bottom.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "rich_text_HWmkTd",
+    "featured_collection_WTX9FM",
+    "multicolumn_4UjmgG",
+    "slider_with_text_dQ9jW4",
+    "image_with_text_kdiyfj",
+    "multicolumn_CP3ET4",
+    "image_banner_fYpdKw"
+  ]
+}

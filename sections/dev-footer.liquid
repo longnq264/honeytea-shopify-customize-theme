@@ -1,0 +1,96 @@
+<link rel="stylesheet" href="{{ 'dev-footer.css' | asset_url }}">
+
+{%- style -%}
+  .layout--{{ settings.page_width }} {
+    max-width: {{ settings.page_width }}px;
+    margin: 0 auto;
+  }
+  
+{%- endstyle -%}
+<footer class="color-{{ section.settings.color_scheme }} footer-layout">
+  <div class="footer-content layout--{{ settings.page_width }}">
+    <div class="footer-content-top">
+        <div class="logo-footer">
+          <img
+            class="image-full"
+            src="{{ section.settings.image | img_url: 'master' }}"
+            alt="Logo"
+            width="303"
+            height="500"
+          >
+        </div>
+        <div class="footer-nav-content">
+          <h2>INFORMATION</h2>
+          <ul class="nav-menu">
+            <li><a href="/faqs">FAQS</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms-conditions">Terms and Conditions</a></li>
+            <li><a href="/contact-us">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav-content">
+          <h2>NAVIGATION</h2>
+          <ul class="nav-menu">
+            <li><a href="/multipacks">Multipacks</a></li>
+            <li><a href="/subscriptions">Subscriptions</a></li>
+            <li><a href="/about-us">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav-content">
+          <h2 style="
+               padding: 0 20px 30px;"
+          >SIGN UP FOR NEW PRODUCTS AND EXCLUSIVE OFFERS</h2>
+          <div class="contact-email flex">
+            <input type="text" placeholder="Your email address" class="input-email">
+            <button class="btn--none">Subcribe</button>
+          </div>
+          <div style="margin-top: 30px" class="list-payment">
+            <img src="{{'list-payment.png' | asset_url}}" width="270" height="20" alt="" 
+            style="height: 100%; max-width: 270px;"
+            >
+          </div>
+        </div>
+    </div>
+    <div class="footer-layout-bottom">
+      <div class="footer-bottom-content flex between">
+        <p style="margin:0; font-size: 14px; font-family:sans-serif">©2024 HoneyTea All rights reserved</p>
+        <ul class="nav-icon">
+          <li><a href="#"><img src="{{'twitter.png' | asset_url}}" width="15" height="15" alt=""></a></li>
+          <li><a href="#"><img src="{{'instagram.png' | asset_url}}" style="margin-left: 20px;margin-right: 16px;" width="15" height="15" alt=""></a></li>
+          <li><a href="#"><img src="{{'tiktok.png' | asset_url}}" style=" object-fit: cover;" width="25" height="15" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+{% schema %}
+  {
+    "name": "Footer 1.0",
+    "tag": "section",
+    "class": "footer-wrapper",
+    "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Logo Footer"
+        },
+        {
+            "type": "link_list",
+            "id": "footer_links",
+            "label": "Footer Navigation"
+        },
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "t:sections.all.colors.label",
+          "default": "scheme-1"
+        }
+    ],
+    "presets": [
+      {
+        "name": "Footer 1.0"
+
+      }
+    ]
+  }
+{% endschema %}

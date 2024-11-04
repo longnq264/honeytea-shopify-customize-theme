@@ -1,0 +1,148 @@
+:root {
+  --font-family-heading: "Cormorant Garamond", Sans-serif;
+  --font-family-body: "Sans-serif";
+  --font-size-primary: 20px;
+}
+
+body {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5555555556;
+}
+
+.template--18551079633133__multicolumn_tfHKEW .page-width {
+  max-width: 100%;
+}
+
+.template--18551079633133__multicolumn_tfHKEW h3.inline-richtext {
+  font-family: "Cormorant Garamond", Sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.template--18551079633133__multicolumn_tfHKEW h3.inline-richtext a {
+  text-decoration: none;
+  font-size: inherit;
+}
+.template--18551079633133__multicolumn_4UjmgG .page-width {
+  max-width: 100%;
+}
+.template--18551079633133__multicolumn_4UjmgG
+  .multicolumn-list__item.center
+  .media--adapt {
+  width: 128px;
+  height: 128px;
+}
+.template--18551079633133__multicolumn_4UjmgG .multicolumn-card__image-wrapper {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.template--18551079633133__multicolumn_4UjmgG .multicolumn-card__info {
+  padding: 0;
+}
+
+.template--18551079633133__multicolumn_4UjmgG
+  .multicolumn-card__info
+  h3.inline-richtext {
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 18px;
+  font-family: sans-serif;
+}
+
+.template--18551079633133__multicolumn_CP3ET4 h2.title.inline-richtext.h1 {
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  color: #222830;
+  font-family: "Cormorant Garamond", Sans-serif;
+  font-size: 51px;
+  font-weight: 400;
+  letter-spacing: -1.6px;
+}
+
+.template--18551079633133__multicolumn_tfHKEW .btn-honey {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: -0.1px;
+  padding: 0 65px;
+}
+
+.template--18551079633133__multicolumn_tfHKEW .btn-honey span {
+  display: none;
+}
+
+.template--18551079633133__multicolumn_CP3ET4
+  .media.media--transparent.media--adapt {
+  width: 128px;
+  height: 128px;
+}
+
+.template--18551079633133__multicolumn_CP3ET4 .multicolumn-card__image-wrapper {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.template--18551079633133__multicolumn_CP3ET4 .inline-richtext {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.button,
+.button::before,
+.button::after,
+.button:hover::before,
+.button:hover::after {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.btn-honey {
+  background: #222830;
+  color: #ffd279;
+  font-family: "Cormorant Garamond", Sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: -0.1px;
+  border-radius: 25px;
+  opacity: initial;
+  transition: color 0.3s ease;
+}
+
+.btn-honey:hover {
+  color: white;
+}
+
+.heading-honey {
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: -0.1px;
+}
+
+.card__content.template--18579704381677__featured_collection_rew4TA--heading
+  .heading-honey
+  .card-information {
+  text-align: center;
+}
+
+.template--18551079731437__featured_collection_C3xwBG--heading .btn-honey,
+.template--18551079633133__featured_collection_WTX9FM--heading .btn-honey {
+  margin: 0 auto;
+  max-height: fit-content;
+  min-height: fit-content;
+  min-width: fit-content;
+  max-width: fit-content;
+  padding: 0 60px;
+  font-size: 22px;
+  line-height: 44px;
+}
+
+.layout--sections--18551080124653__header nav.header__inline-menu {
+  margin: 0 auto;
+}
