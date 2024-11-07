@@ -7,6 +7,8 @@
   --focused-base-outline-offset: 0.3rem;
   --focused-base-box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
     0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+  --grid-desktop-horizontal-spacing: 15px;
+  --grid-desktop-vertical-spacing: 30px;
 }
 
 .product-card-wrapper .card,

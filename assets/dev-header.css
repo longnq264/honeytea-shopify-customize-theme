@@ -10,9 +10,12 @@
   object-fit: cover;
 }
 
-ul.list-menu li a .header__menu-item {
+ul.list-menu li a.link--text {
   font-size: 19px;
   text-transform: uppercase;
+}
+
+ul.list-menu li a.link--text:hover {
 }
 
 .header.layout--sections--18551080124653__header h1.header__heading a {
@@ -26,6 +29,38 @@ ul.list-menu li a .header__menu-item {
 
 .layout--sections--18551080124653__header nav.header__inline-menu ul li span {
   font-size: 19px;
+  text-decoration: none;
+}
+
+.layout--sections--18551080124653__header nav.header__inline-menu ul li {
+  position: relative;
+  display: inline-block;
+}
+
+.layout--sections--18551080124653__header
+  nav.header__inline-menu
+  ul
+  li
+  span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%; /* Căn giữa theo chiều ngang */
+  width: 90%; /* Chiều rộng của underline nhỏ hơn chiều rộng phần tử */
+  height: 1px; /* Độ dày của underline */
+  background-color: black; /* Màu của underline */
+  transform: translateX(-50%) scaleX(0); /* Đặt underline vào giữa và ẩn */
+  transform-origin: left; /* Hiệu ứng mở rộng từ trung tâm */
+  transition: transform 0.3s ease; /* Tạo hiệu ứng mượt */
+  display: block;
+}
+
+.layout--sections--18551080124653__header
+  nav.header__inline-menu
+  ul
+  li
+  span:hover::after {
+  transform: translateX(-50%) scaleX(1); /* Khi hover, mở rộng underline */
 }
 
 .layout--sections--18551080124653__header .header__icons {

@@ -124,6 +124,9 @@ body {
   text-transform: uppercase;
   letter-spacing: -0.1px;
 }
+.heading-honey .card__heading {
+  font-size: inherit;
+}
 
 .card__content.template--18579704381677__featured_collection_rew4TA--heading
   .heading-honey
@@ -145,4 +148,8 @@ body {
 
 .layout--sections--18551080124653__header nav.header__inline-menu {
   margin: 0 auto;
+}
+
+h2.image-with-text__heading.inline-richtext.h0 {
+  font-size: 40pt;
 }

@@ -11,41 +11,69 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+
     .template--18551079633133__image_with_text_kdiyfj .image-with-text__media {
       max-width: 840px;
       margin: 0 auto;
     }
+
+    .template--18579704447213__image_with_text_Fnn3ry .image-with-text__media,
+    .template--18579704447213__image_with_text_znKqFQ .image-with-text__media,
+    .template--18579704447213__image_with_text_bAUHbV .image-with-text__media {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* .template--18579704447213__image_with_text_bAUHbV .image-with-text__media, */
     .template--18551079633133__image_with_text_kdiyfj .image-with-text__media {
       max-height: 1180px;
     }
   }
 
-  .section-template--18551079633133__image_with_text_kdiyfj-padding .page-width {
-    max-width: 100%;
-    padding: 0;
+  @media screen and (max-width: 1600px) {}
+@media screen and (max-width: 1000px) {
+  .template--18579704447213__image_with_text_znKqFQ .image-with-text__grid {
+    flex-direction: row-reverse;
   }
-  .template--18551079633133__image_with_text_kdiyfj .image-with-text__media {
-    min-height: 757px;
-  }
+}
 
-  .template--18551079633133__image_with_text_kdiyfj .image-with-text__media img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-  }
+.section-template--18551079633133__image_with_text_kdiyfj-padding .page-width {
+  max-width: 100%;
+  padding: 0;
+}
+.template--18551079633133__image_with_text_kdiyfj .image-with-text__media {
+  min-height: 757px;
+}
 
-  .template--18551079633133__image_with_text_kdiyfj .btn-honey {
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 44px;
-    letter-spacing: -0.1px;
-    padding: 0 65px;
-    opacity: initial;
-    min-height: fit-content;
-  }
-  h2.image-with-text__heading {
-    text-transform: uppercase;
-  }
+.image-with-text__media img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.template--18551079633133__image_with_text_kdiyfj .btn-honey {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: -0.1px;
+  padding: 0 65px;
+  opacity: initial;
+  min-height: fit-content;
+}
+h2.image-with-text__heading {
+  text-transform: uppercase;
+}
+
+.template--18579704447213__image_with_text_Fnn3ry.page-width,
+.template--18579704447213__image_with_text_znKqFQ.page-width,
+.template--18579704447213__image_with_text_bAUHbV.page-width {
+  max-width: 100%;
+  padding: 0;
+}
+
+.template--18579704447213__image_with_text_znKqFQ .image-with-text__text-item {
+  background-color: #ffd279;
+}
 {%- endstyle -%}
 
 {%- liquid
@@ -82,16 +110,26 @@
                   (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
                 {%- endcapture -%}
               {%- endif -%}
-              <div class="{% if section.settings.image2 %} carousel-gallery {% endif %}">
+
+              {%- if section.settings.image2 -%}
+
+                <div class="carousel-gallery">
+                  {{
+                    section.settings.image | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                  }}
+                  {%- if section.settings.image2 != blank -%}
+                    {{
+                      section.settings.image2 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                    }}
+                  {%- endif -%}
+                </div>
+              {%- else -%}
                 {{
                   section.settings.image | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
                 }}
-                {%- if section.settings.image2 != blank -%}
-                  {{
-                    section.settings.image2 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                  }}
-                {%- endif -%}
-              </div>
+              {%- endif -%}
+
+
             {%- else -%}
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
