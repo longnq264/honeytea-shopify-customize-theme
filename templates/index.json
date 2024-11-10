@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "image_banner": {
@@ -23,7 +14,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop HoneyTea",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -36,7 +27,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/MAINBK_1.jpg",
+        "image": "shopify:\/\/shop_images\/MAINBK_1.jpg",
         "image_overlay_opacity": 10,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -63,7 +54,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Multipacks",
-            "button_link": "shopify://pages/multipacks",
+            "button_link": "shopify:\/\/pages\/multipacks",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -118,7 +109,7 @@
         "column_brGkgy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/vitamin-c-1.png",
+            "image": "shopify:\/\/shop_images\/vitamin-c-1.png",
             "title": "Contains a source of vitamin C",
             "text": "",
             "link_label": "",
@@ -128,7 +119,7 @@
         "column_9MhjyR": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/sugar-1.png",
+            "image": "shopify:\/\/shop_images\/sugar-1.png",
             "title": "low sugar",
             "text": "",
             "link_label": "",
@@ -138,7 +129,7 @@
         "column_bi7tAX": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/low-calorie.png",
+            "image": "shopify:\/\/shop_images\/low-calorie.png",
             "title": "low in calories",
             "text": "",
             "link_label": "",
@@ -148,7 +139,7 @@
         "column_mdaNQG": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/no-preservatives-2.png",
+            "image": "shopify:\/\/shop_images\/no-preservatives-2.png",
             "title": "no preservations",
             "text": "",
             "link_label": "",
@@ -158,7 +149,7 @@
         "column_XacK49": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/planet-earth-2.png",
+            "image": "shopify:\/\/shop_images\/planet-earth-2.png",
             "title": "natural favourings",
             "text": "",
             "link_label": "",
@@ -196,19 +187,19 @@
         "image_zPnzEJ": {
           "type": "image",
           "settings": {
-            "image_slider": "shopify://shop_images/banner-home-bottom.jpg"
+            "image_slider": "shopify:\/\/shop_images\/banner-home-bottom.jpg"
           }
         },
         "image_rWfPfG": {
           "type": "image",
           "settings": {
-            "image_slider": "shopify://shop_images/banner-section.jpg"
+            "image_slider": "shopify:\/\/shop_images\/banner-section.jpg"
           }
         },
         "image_QKjpcP": {
           "type": "image",
           "settings": {
-            "image_slider": "shopify://shop_images/product1_f78aa67d-a618-466b-9f4e-358777eefd27.jpg"
+            "image_slider": "shopify:\/\/shop_images\/product1_f78aa67d-a618-466b-9f4e-358777eefd27.jpg"
           }
         }
       },
@@ -220,7 +211,7 @@
       "disabled": true,
       "settings": {
         "heading": "Image with text",
-        "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
         "button_label": "Button label",
         "button_link": "",
         "text_style": "body",
@@ -250,7 +241,7 @@
         "text_mp4jCc": {
           "type": "text",
           "settings": {
-            "text": "<p>Our Premium Iced Teas are the perfect way to stay hydrated all season long. Choose from a variety of flavours, including Lemon, Cinnamon and Elderflower. We’ll deliver your drinks right to your door on a regular basis, so you’ll never have to worry about running out.</p>",
+            "text": "<p>Our Premium Iced Teas are the perfect way to stay hydrated all season long. Choose from a variety of flavours, including Lemon, Cinnamon and Elderflower. We’ll deliver your drinks right to your door on a regular basis, so you’ll never have to worry about running out.<\/p>",
             "text_style": "body"
           }
         },
@@ -269,8 +260,8 @@
         "button_WMFVVt"
       ],
       "settings": {
-        "image": "shopify://shop_images/banner-section.jpg",
-        "image2": "shopify://shop_images/banner-section2.jpg",
+        "image": "shopify:\/\/shop_images\/banner-section.jpg",
+        "image2": "shopify:\/\/shop_images\/banner-section2.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -291,9 +282,9 @@
         "column_RpYMwY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/ethically-sourced-3.png",
+            "image": "shopify:\/\/shop_images\/ethically-sourced-3.png",
             "title": "sourcing",
-            "text": "<p>Only the best quality ingredients make their way into every bottle of HoneyTea. From the organic wildflower honey to the responsibly sourced green tea leaves, every ingredient is carefully selected to ensure you get that refreshing taste every time.</p>",
+            "text": "<p>Only the best quality ingredients make their way into every bottle of HoneyTea. From the organic wildflower honey to the responsibly sourced green tea leaves, every ingredient is carefully selected to ensure you get that refreshing taste every time.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -301,9 +292,9 @@
         "column_VCRE7p": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/brewing-1.png",
+            "image": "shopify:\/\/shop_images\/brewing-1.png",
             "title": "brewing",
-            "text": "<p>Our green tea is brewed to gradually extract a strong flavour, which is then mixed with honey for sweetness and lemon juice for freshness.</p>",
+            "text": "<p>Our green tea is brewed to gradually extract a strong flavour, which is then mixed with honey for sweetness and lemon juice for freshness.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -311,9 +302,9 @@
         "column_jmdLWB": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/wine-bottle-1.png",
+            "image": "shopify:\/\/shop_images\/wine-bottle-1.png",
             "title": "bottling",
-            "text": "<p>We use high quality recyclable glass bottles, sealed with premium caps to ensure that your drink gets to you at its best quality.</p>",
+            "text": "<p>We use high quality recyclable glass bottles, sealed with premium caps to ensure that your drink gets to you at its best quality.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -321,9 +312,9 @@
         "column_g6zqtd": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/thermometer-2.png",
+            "image": "shopify:\/\/shop_images\/thermometer-2.png",
             "title": "pasteurising",
-            "text": "<p>We are committed to our promise of using no preservatives in our drink. Consequently, the final stage in our cycle is where we pasteurise our drinks to make sure they are safe for consumption and will retain their amazing quality.</p>",
+            "text": "<p>We are committed to our promise of using no preservatives in our drink. Consequently, the final stage in our cycle is where we pasteurise our drinks to make sure they are safe for consumption and will retain their amazing quality.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -376,7 +367,7 @@
         "media_Aay4pD"
       ],
       "settings": {
-        "image": "shopify://shop_images/banner-home-bottom.jpg",
+        "image": "shopify:\/\/shop_images\/banner-home-bottom.jpg",
         "image_overlay_opacity": 20,
         "image_height": "medium",
         "desktop_content_position": "middle-center",

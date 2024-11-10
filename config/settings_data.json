@@ -1,15 +1,6 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "current": {
-    "logo": "shopify://shop_images/Honey-Logo.png",
+    "logo": "shopify:\/\/shop_images\/Honey-Logo.png",
     "logo_width": 260,
     "type_header_font": "cormorant_n4",
     "heading_scale": 100,
@@ -107,7 +98,7 @@
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "",
-    "brand_description": "<p></p>",
+    "brand_description": "<p><\/p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -141,27 +132,22 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "1471279892117976293": {
-        "type": "shopify://apps/powr-image-slider/blocks/app-embed/db02efbb-fd06-4a97-88f3-663cfa9effba",
+        "type": "shopify:\/\/apps\/powr-image-slider\/blocks\/app-embed\/db02efbb-fd06-4a97-88f3-663cfa9effba",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "5846654113244447633": {
-        "type": "shopify://apps/xo-scroll-to-top/blocks/xo-scrolltop/ea52da47-6aa9-474c-8ff9-df181b3784b4",
+        "type": "shopify:\/\/apps\/xo-scroll-to-top\/blocks\/xo-scrolltop\/ea52da47-6aa9-474c-8ff9-df181b3784b4",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "12643349056429947648": {
-        "type": "shopify://apps/sticky-add-to-cart-booster-pro/blocks/satcb/2d1e1d5d-e947-4201-9a4f-8b73ff50f821",
+        "type": "shopify:\/\/apps\/sticky-add-to-cart-booster-pro\/blocks\/satcb\/2d1e1d5d-e947-4201-9a4f-8b73ff50f821",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -422,7 +408,7 @@
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-3",
       "brand_headline": "",
-      "brand_description": "<p></p>",
+      "brand_description": "<p><\/p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
