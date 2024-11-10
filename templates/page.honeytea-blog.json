@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -22,36 +23,28 @@
         "heading_YzzYra": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "THE WHEN",
+            "heading_size": "h0"
           }
         },
         "text_VKRBLe": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>One day at University, I decided that I wanted a light refreshing drink but did not want water or anything too sugary or fizzy. I looked in the fridge and discovered some lemons which I paired with some freshly brewed tea and honey, the rest as they say is history. I designed the recipe for HoneyTea in my kitchen and the final recipe which you taste today, whilst certified and commercially developed, remains largely similar to the initial taste. HoneyTea takes you on a journey of excitement and simply excellent flavours.</p>",
             "text_style": "body"
-          }
-        },
-        "button_fWwQkc": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_YzzYra",
-        "text_VKRBLe",
-        "button_fWwQkc"
+        "text_VKRBLe"
       ],
       "settings": {
+        "image": "shopify://shop_images/banner-categories.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-e361f310-30ed-44d7-abdf-71d535c28f4b",
@@ -68,40 +61,32 @@
         "heading_W8TA7B": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "THE How",
+            "heading_size": "h0"
           }
         },
         "text_i4Hw6g": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>HoneyTea is the product of a passion for the delicious and invigorating taste of a unique iced tea. What began as a drink made for personal consumption has now become a refined product of delicious ingredients and flavours. We have developed 3 different flavour profiles – lemon, cinnamon and elderflower, each with a point of difference.</p><p>Enjoy HoneyTea, a premium blend drink which has been brewed in the best conditions using the highest quality ingredients. We use the very best and organic Sicilian lemons, paired with fragrant green tea and organic honey for our signature taste.</p>",
             "text_style": "body"
-          }
-        },
-        "button_9QydB9": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_W8TA7B",
-        "text_i4Hw6g",
-        "button_9QydB9"
+        "text_i4Hw6g"
       ],
       "settings": {
+        "image": "shopify://shop_images/banner-categories2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-e361f310-30ed-44d7-abdf-71d535c28f4b",
-        "color_scheme": "scheme-59c7c7b8-4bf1-4421-ba03-b68ea4515693",
+        "color_scheme": "scheme-e361f310-30ed-44d7-abdf-71d535c28f4b",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
@@ -114,36 +99,28 @@
         "heading_qkqUpJ": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "THE WHY",
+            "heading_size": "h0"
           }
         },
         "text_BprRwa": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>I am passionate about creating a drink that can be enjoyed by my customers, which is also of the highest quality.</p><p>I have therefore nurtured and developed HoneyTea – a naturally sourced, no added sugar, refreshing iced tea product. HoneyTea provides a number of health benefits such as a boost to the immune system, a good source of antioxidants and it is full of nourishing ingredients.</p><p>I have continued to refine and develop the drink which has now become the premium iced tea product that it is today.</p><p>– Oyin, Founder</p>",
             "text_style": "body"
-          }
-        },
-        "button_KcPgbn": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_qkqUpJ",
-        "text_BprRwa",
-        "button_KcPgbn"
+        "text_BprRwa"
       ],
       "settings": {
+        "image": "shopify://shop_images/banner-categories3.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-e361f310-30ed-44d7-abdf-71d535c28f4b",
